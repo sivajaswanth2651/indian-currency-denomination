@@ -1,0 +1,21 @@
+amt=7256
+print("2000rs -- ",int(amt/2000))
+amt=amt%2000
+print("500rs -- ",int(amt/500))
+amt=amt%500
+print("200rs -- ",int(amt/200))
+amt=amt%200
+print("100rs -- ",int(amt/100))
+amt=amt%100
+print("50rs -- ",int(amt/50))
+amt=amt%50
+print("20rs -- ",int(amt/20))
+amt=amt%20
+print("10rs -- ",int(amt/10))
+amt=amt%10
+print("5rs -- ",int(amt/5))
+amt=amt%5
+print("2rs -- ",int(amt/2))
+amt=amt%2
+print("1rs -- ",int(amt/1))
+amt=amt%1
